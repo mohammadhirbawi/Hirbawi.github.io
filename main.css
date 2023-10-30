@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: hsl(210, 3%, 15%);
+  color: hsl(0, 0%, 95%);
+  line-height: 1;
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+p {
+  font-size: 1.3em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+p::first-letter {
+  color: rgb(225, 255, 0);
+  padding: 0 0.3rem;
+  margin: 0 0.3rem 0 0;
+  border: 2px solid;
+  border-radius: 8px;
+}
+header {
+  padding: 0.5rem;
+  background-color: hsl(280, 50%, 40%);
+  border-bottom: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 97%);
+}
+h2 {
+  color: rgb(7, 189, 245);
+}
+strong {
+  color: rgb(9, 255, 0);
+}
+a {
+  color: rgb(238, 0, 0);
+  text-decoration: none;
+}
+dl.imdb-info {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+dl.imdb-info dt {
+  font-weight: bold;
+  color: rgb(7, 189, 245);
+  margin-top: 8px;
+}
+
+dl.imdb-info dd {
+  margin: 0 0 10px 40px; /* Add 20px margin to the left side */
+}
+ol {
+  display: flex;
+  flex-direction: column-reverse;
+}
